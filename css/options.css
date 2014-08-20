@@ -1,0 +1,17 @@
+BODY { padding: 16px; }
+
+.mybutton {
+    border-radius: 0px;
+    border: 0px;
+    background-color: white;
+}
+
+.mybutton:hover {
+    background-color: #f0f0f0;
+}
+
+.mybutton:active{
+    background-color: #e0e0e0;
+    padding: 11px 9px 9px 37px;
+    background-position: 11px 11px;
+}

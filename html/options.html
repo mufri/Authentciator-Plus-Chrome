@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>Authenticator Plus Options</title>
+		<script src="/js/options.js"></script>
+		<script src="/js/jquery-2.1.1.min.js"></script>
+		<script src="/js/spin.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="/css/options.css">
+	</head>
+	<body>
+
+		<div id="link_div" style="display:none">
+			You  Google account is not linked, you need to link your Google account before pushing to app.
+
+			<br/>
+			<br/>
+
+			<button class="mybutton" id="signin"><img src="/img/google.png">
+			</button>
+
+		</div>
+		<div id="unlink_div" style="display:none">
+			<button id="signout">
+				UnLink Account
+			</button>
+		</div>
+		<div id="progressbar"></div>
+
+		<br/>
+		<br/>
+		<b><a href="https://chrome.google.com/webstore/support/eoonbpekmfnjlgejkeebjhnkgdebgonn">Send feedback / Report a bug</a></b>
+		<br/>
+		<br/>
+		<input type="checkbox" id="show_debug_info">Show debug  info</input>
+
+
+
+		<div id="status"></div>
+	</body>
+</html>
