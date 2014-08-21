@@ -194,3 +194,4 @@ The GNU General Public License does not permit incorporating your program into p
 
 
 
+![Analytics](https://ga-beacon.appspot.com/UA-44491916-10/authplus-chrome)
